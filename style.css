@@ -180,7 +180,7 @@ body
 
 .project-title
 {
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 .cards
 {
@@ -206,7 +206,7 @@ body
     border-left-color: rgb(231, 182, 71);
 }
 
-.card-title, .card-text, .icons
+.card-title, .card-text, .icons, .an-text, .an-title
 {
     margin: 0px;
 }
@@ -253,4 +253,42 @@ h3
     grid-row: 1/2;
     display: flex;
     justify-content: center;
+}
+
+.rightside-container
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 5%;
+
+}
+
+.announcement-card
+{
+    background-color: white;    
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.an-title, .an-text
+{
+    padding: 5%;
+}
+
+.an-title
+{
+    padding-bottom: 0;
+}
+.an-text
+{
+    color: rgb(115,115,115);
+    padding-top: 0;
+}
+
+hr
+{
+    width: 85%;
 }
