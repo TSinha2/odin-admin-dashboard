@@ -126,6 +126,7 @@ body
 {
     display: flex;
     gap: 1.5vw;
+    align-items: center;
 }
 
 .greeting
@@ -176,12 +177,10 @@ body
 {
     grid-row: 1/2;
     font-size: 2vw;
+    font-size: 1.75vw;
+    align-self: center;
 }
 
-.project-title
-{
-    font-size: 1.75vw;
-}
 .cards
 {
     grid-column: 1/2;
@@ -292,6 +291,11 @@ hr
     width: 85%;
 }
 
+.trending-title
+{
+    text-align: center;
+}
+
 .trending-card
 {
     grid-row: 2/3;
@@ -300,7 +304,10 @@ hr
 .trending-project
 {
     display: flex;
-    gap: 2vw;
+    gap: 1vw;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -310,4 +317,15 @@ hr
     height: 5vh;
     border-radius: 50%;
     align-self: center;
+}
+
+.trending-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+
 }
