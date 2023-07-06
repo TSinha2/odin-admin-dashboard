@@ -246,3 +246,11 @@ h3
     width: 1.5vw;
     height: auto;
 }
+
+.announcement-title
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+}
