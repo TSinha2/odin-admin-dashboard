@@ -117,7 +117,8 @@ body
     gap: 1.5vw;
     padding-left: 2vw;
     justify-content: space-between;
-    box-shadow: 0px 10px 10px -15px #111;    
+    box-shadow: 0px 10px 10px -15px #111;  
+    position: relative;  
 
 }
 
@@ -160,4 +161,88 @@ body
     width: 33%;
     padding: 3%;
     font-weight: bold;
+}
+
+.content
+{
+    background-color: rgb(230, 235, 237);
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    grid-template-rows: .5fr 4fr;
+    padding-left: 5%;    
+}
+
+.project-title
+{
+    grid-row: 1/2;
+    font-size: 2vw;
+}
+
+.project-title
+{
+    font-size: 2vw;
+}
+.cards
+{
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2vw;
+    padding-bottom: 5%;
+
+}
+
+.card
+{
+    display: grid;
+    grid-template-rows: 0.5fr 1.25fr 0.5fr;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border-left: .75vw solid;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    border-left-color: rgb(231, 182, 71);
+}
+
+.card-title, .card-text, .icons
+{
+    margin: 0px;
+}
+
+.card-title
+{
+    display: flex;
+    align-items: flex-end;
+}
+.card-text
+{
+    color: rgb(115,115,115)
+}
+
+h3
+{
+    font-size: 1.25vw;
+}
+
+.card-text
+{
+    font-size: 1.1vw;
+    padding-right: 2%;
+}
+
+.icons
+{
+    display: flex;
+    width: 95%;
+    height: auto;
+    justify-content: flex-end;
+    gap: 1.5vw;
+}
+
+.card-icon
+{
+    width: 1.5vw;
+    height: auto;
 }
