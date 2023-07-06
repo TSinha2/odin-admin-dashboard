@@ -206,7 +206,7 @@ body
     border-left-color: rgb(231, 182, 71);
 }
 
-.card-title, .card-text, .icons, .an-text, .an-title
+.card-title, .card-text, .icons, .an-text, .an-title, .trending-text, .trending-img, h4, p
 {
     margin: 0px;
 }
@@ -263,7 +263,6 @@ h3
     grid-template-rows: 1fr 1fr;
     padding-left: 10%;
     padding-right: 5%;
-
 }
 
 .announcement-card
@@ -282,7 +281,7 @@ h3
 {
     padding-bottom: 0;
 }
-.an-text
+.an-text, p
 {
     color: rgb(115,115,115);
     padding-top: 0;
@@ -291,4 +290,24 @@ h3
 hr
 {
     width: 85%;
+}
+
+.trending-card
+{
+    grid-row: 2/3;
+}
+
+.trending-project
+{
+    display: flex;
+    gap: 2vw;
+}
+
+
+.trending-img
+{
+    width: 6.5vh;
+    height: 5vh;
+    border-radius: 50%;
+    align-self: center;
 }
